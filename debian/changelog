@@ -1,5 +1,79 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-safchain-ethtool (0.3.0-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream release.
+  * Bump Standards-Version.
+  * Update copyright date for debian/ directory.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Sascha Steinbiss <satta@debian.org>  Thu, 16 Mar 2023 08:36:11 +0100
+
+golang-github-safchain-ethtool (0.2.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Sascha Steinbiss <satta@debian.org>  Sat, 26 Mar 2022 23:28:12 +0100
+
+golang-github-safchain-ethtool (0.1.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * Drop patches (applied upstream)
+
+ -- Benjamin Drung <benjamin.drung@ionos.com>  Mon, 15 Nov 2021 10:37:13 +0100
+
+golang-github-safchain-ethtool (0.0~git20210803.9aa261d-2) unstable; urgency=medium
+
+  * Team upload.
+  * Fix converting zero-terminated string to Go string (fixes #39)
+  * Bump Standards-Version to 4.6.0
+
+ -- Benjamin Drung <benjamin.drung@ionos.com>  Wed, 27 Oct 2021 12:28:13 +0200
+
+golang-github-safchain-ethtool (0.0~git20210803.9aa261d-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Sascha Steinbiss <satta@debian.org>  Tue, 24 Aug 2021 21:54:50 +0200
+
+golang-github-safchain-ethtool (0.0~git20201023.874930c-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 11 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Apply multi-arch hints.
+    + golang-github-safchain-ethtool-dev: Add Multi-Arch: foreign.
+
+  [ Shengjing Zhu ]
+  * Update uscan watch file to track head version
+  * New upstream version 0.0~git20201023.874930c
+  * Update Section to golang
+  * Update maintainer address to team+pkg-go@tracker.debian.org
+  * Add Rules-Requires-Root
+  * Update Standards-Version to 4.5.1 (no changes)
+  * Update debhelper-compat to 13
+  * Add golang-golang-x-sys-dev to Depends
+
+ -- Shengjing Zhu <zhsj@debian.org>  Thu, 26 Nov 2020 02:58:15 +0800
+
+golang-github-safchain-ethtool (0.0~git20180308.79559b4-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Sascha Steinbiss <satta@debian.org>  Thu, 08 Mar 2018 09:00:38 +0100
+
+golang-github-safchain-ethtool (0.0~git20170622.7ff1ba2-2) unstable; urgency=medium
+
+  [ Michael Stapelberg ]
+  * [0b87ef8] update debian/gitlab-ci.yml (using Salsa CI)
+  * [38cb836] update debian/gitlab-ci.yml (using Salsa CI)
+
+ -- Sascha Steinbiss <satta@debian.org>  Tue, 06 Mar 2018 15:08:55 +0100
+
+golang-github-safchain-ethtool (0.0~git20170622.7ff1ba2-1) unstable; urgency=medium
+
+  * Initial release (Closes: #891135)
+
+ -- Sascha Steinbiss <satta@debian.org>  Thu, 22 Feb 2018 15:56:14 +0100
